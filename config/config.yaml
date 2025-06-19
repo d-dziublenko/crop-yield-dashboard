@@ -1,0 +1,61 @@
+# Application Configuration
+app:
+  name: "Crop Yield Prediction Dashboard"
+  version: "1.0.0"
+  debug: false
+
+# Model Configuration
+model:
+  algorithm: "xgboost"
+  hyperparameters:
+    n_estimators: 100
+    max_depth: 6
+    learning_rate: 0.1
+    subsample: 0.8
+    random_state: 42
+
+  # Feature engineering settings
+  features:
+    numerical:
+      - temperature
+      - rainfall
+      - humidity
+      - soil_ph
+      - nitrogen
+      - phosphorus
+      - potassium
+      - field_size
+      - pesticide_use
+    categorical:
+      - crop_type
+    binary:
+      - irrigation
+    target: yield
+
+# Data Settings
+data:
+  synthetic:
+    n_samples: 1000
+    random_seed: 42
+
+  validation:
+    test_size: 0.2
+    random_state: 42
+
+# Visualization Settings
+visualization:
+  map:
+    default_zoom: 5
+    max_markers: 200
+
+  charts:
+    color_scheme: "plotly"
+    height: 400
+    width: 700
+
+# Export Settings
+export:
+  formats:
+    - csv
+    - excel
+  max_rows: 10000
