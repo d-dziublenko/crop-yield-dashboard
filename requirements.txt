@@ -1,0 +1,40 @@
+# Crop Yield Prediction Dashboard Dependencies
+# ============================================
+# This file uses flexible version specifiers to allow minor updates
+# while preventing breaking changes from major version updates
+
+# Core Web Framework
+# Streamlit is our main dashboard framework
+streamlit>=1.28.0,<2.0.0
+
+# Data Processing and Analysis
+# Pandas for data manipulation, numpy for numerical operations
+pandas>=2.1.0,<3.0.0
+numpy>=1.24.0,<2.0.0
+
+# Machine Learning Stack
+# XGBoost for gradient boosting, scikit-learn for preprocessing
+xgboost>=2.0.0,<3.0.0
+scikit-learn>=1.3.0,<2.0.0
+
+# Model Interpretability
+# SHAP for explaining model predictions
+shap>=0.43.0,<1.0.0
+
+# Geographic Visualization
+# Folium for maps, streamlit-folium for integration
+folium>=0.15.0,<1.0.0
+streamlit-folium>=0.15.0,<1.0.0
+
+# Interactive Plotting
+# Plotly for dynamic charts and graphs
+plotly>=5.17.0,<6.0.0
+
+# Scientific Computing (usually auto-installed but good to specify)
+scipy>=1.11.0,<2.0.0
+matplotlib>=3.7.0,<4.0.0
+
+# Utility Libraries
+joblib>=1.3.0,<2.0.0
+python-dateutil>=2.8.0,<3.0.0
+pytz>=2023.3
