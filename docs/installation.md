@@ -1,8 +1,8 @@
-# Installation Guide for Crop Yield Prediction Dashboard
+# Installation Guide for Crop Yield Dashboard
 
 ## Understanding the Installation Process
 
-Before we dive into the installation steps, let's understand what we're about to do. Installing the Crop Yield Prediction Dashboard involves setting up a Python environment with specific libraries that work together to create an interactive web application. Think of it like building a house - we need to lay the foundation (Python), set up the framework (virtual environment), and then add all the specialized components (libraries) that make the dashboard functional.
+Before we dive into the installation steps, let's understand what we're about to do. Installing the Crop Yield Dashboard involves setting up a Python environment with specific libraries that work together to create an interactive web application. Think of it like building a house - we need to lay the foundation (Python), set up the framework (virtual environment), and then add all the specialized components (libraries) that make the dashboard functional.
 
 The entire installation process typically takes 10-15 minutes, depending on your internet speed and computer performance. Don't worry if you encounter some warnings during installation - we'll address common issues and explain what's happening at each step.
 
@@ -493,8 +493,6 @@ If you encounter issues not covered here:
 Remember, installation issues are often system-specific, and what works on one computer might need adjustment on another. Don't hesitate to seek help if you're stuck - the community is generally very helpful and welcoming to newcomers.
 
 ## Next Steps
-
-Congratulations on completing the installation! You're now ready to start using the Crop Yield Prediction Dashboard. Head over to the [Usage Guide](usage.md) to learn how to:
 
 - Load your agricultural data
 - Train prediction models

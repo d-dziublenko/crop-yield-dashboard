@@ -1,4 +1,4 @@
-# 🌾 Crop Yield Prediction Dashboard
+# 🌾 Crop Yield Dashboard
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.28%2B-FF4B4B.svg)](https://streamlit.io/)
