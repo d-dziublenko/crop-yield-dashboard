@@ -1,4 +1,4 @@
-# Crop Yield Prediction Dashboard Dependencies
+# Crop Yield Dashboard Dependencies
 # ============================================
 # This file uses flexible version specifiers to allow minor updates
 # while preventing breaking changes from major version updates

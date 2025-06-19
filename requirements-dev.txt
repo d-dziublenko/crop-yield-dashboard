@@ -1,4 +1,21 @@
+# Development dependencies for Crop Yield Dashboard
+# These packages are only needed for development and testing
+
+# Testing framework
 pytest>=7.4.0,<8.0.0
+
+# Coverage plugin for pytest - enables --cov flags
+pytest-cov>=4.1.0,<5.0.0
+
+# Code formatting
 black>=23.0.0,<24.0.0
+
+# Code linting
 flake8>=6.0.0,<7.0.0
-ipykernel>=6.25.0,<7.0.0  # For Jupyter notebook development
+
+# Jupyter notebook support for development
+ipykernel>=6.25.0,<7.0.0
+
+# Optional: Additional testing utilities
+pytest-mock>=3.11.0,<4.0.0  # For mocking in tests
+pytest-timeout>=2.1.0,<3.0.0  # For setting test timeouts
