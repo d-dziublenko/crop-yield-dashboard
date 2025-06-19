@@ -10,7 +10,7 @@
 An advanced machine learning dashboard for predicting crop yields using XGBoost, featuring real-time predictions, comprehensive data visualizations, and model interpretability through SHAP analysis. Built with Streamlit for an intuitive, interactive user experience.
 
 <p align="center">
-  <img src="docs/images/dashboard-preview.png" alt="Dashboard preview" width="800"/>
+  <img src="docs/images/dashboard-preview.png" alt="Dashboard preview"/>
 </p>
 
 ## 🌟 Why This Dashboard?
