@@ -16,7 +16,7 @@ import os
 
 # Page configuration
 st.set_page_config(
-    page_title="Crop Yield Prediction Dashboard",
+    page_title="Crop Yield Dashboard",
     page_icon="🌾",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -216,7 +216,7 @@ def create_shap_plots(model, X_scaled, feature_names):
 
 # Main app
 st.markdown(
-    '<h1 class="main-header">🌾 Crop Yield Prediction Dashboard</h1>',
+    '<h1 class="main-header">🌾 Crop Yield Dashboard</h1>',
     unsafe_allow_html=True,
 )
 
@@ -912,7 +912,7 @@ else:
     st.info("👈 Please train the model using the sidebar controls to begin analysis")
 
     # Show demo information
-    st.header("Welcome to the Crop Yield Prediction Dashboard")
+    st.header("Welcome to the Crop Yield Dashboard")
 
     col1, col2, col3 = st.columns(3)
 
