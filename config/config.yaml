@@ -1,6 +1,6 @@
 # Application Configuration
 app:
-  name: "Crop Yield Prediction Dashboard"
+  name: "Crop Yield Dashboard"
   version: "1.0.0"
   debug: false
 

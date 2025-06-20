@@ -1,6 +1,6 @@
-# Contributing to Crop Yield Prediction Dashboard
+# Contributing to Crop Yield Dashboard
 
-First off, thank you for considering contributing to the Crop Yield Prediction Dashboard! It's people like you that make this tool better for everyone.
+First off, thank you for considering contributing to the Crop Yield Dashboard! It's people like you that make this tool better for everyone.
 
 ## Code of Conduct
 
